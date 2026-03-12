@@ -7,7 +7,7 @@ import com.JonathanDev.model.Product;
 import java.sql.*;
 
 public class Constructor {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int contador = 0;
         System.out.println("Inicio de aplicacion usando JDBC");
         try (Statement stmt = ConnectionBD.getConnection().createStatement()) {
